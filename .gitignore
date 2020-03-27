@@ -1,15 +1,32 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Ignore docs files
+_site
+.ruby-version
+.jekyll-metadata
+.vscode
 
-# Test binary, built with `go test -c`
-*.test
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+# *.lock
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# OS or Editor folders
+*.scssc
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+.asset-cache
+.sass-cache
+public
+# Folders to ignore
+node_modules
